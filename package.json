@@ -1,0 +1,37 @@
+{
+  "name": "off--space",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook",
+    "wipe": "rm -rf node_modules && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayoharedee/off--space.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jayoharedee/off--space/issues"
+  },
+  "homepage": "https://github.com/jayoharedee/off--space#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@storybook/react": "^5.3.18",
+    "babel-loader": "^8.1.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.14.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "prettier": "^2.0.5",
+    "sass-loader": "^8.0.2",
+    "webpack": "^4.43.0"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
